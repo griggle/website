@@ -2,7 +2,45 @@ body {
     background-color: rgb(80, 80, 80);
     color: white;
 }
+body {
+    font-family: 'Silkscreen', sans-serif;
+    /* other styles */
+}
 
 h1 {
     color: rgb(170, 150, 196);
+}
+
+#topBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: grey;
+    border-style: outset;
+    width: 100%;
+    z-index: 999;
+}
+
+#titleBar {
+    text-align: center;
+    background-color: grey;
+    border-style: outset;
+}
+
+#navButtons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navButton {
+    width: 60px;
+    height: 50px;
+    border-style: outset;
+    border-color: grey;
+    background-color: grey;
+    margin: 5px;
+}
+
+#pageContent {
+    padding-top: 120px;
 }
